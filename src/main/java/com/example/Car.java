@@ -4,6 +4,10 @@ public class Car {
 
 	private String name;
 	private Integer speed;
+	
+	public String changeName() {
+		return this.name + "さん";
+	}
 	public String getName() {
 		return name;
 	}
